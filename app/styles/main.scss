@@ -45,7 +45,7 @@ body {
   }
 
   ul li {
-    display: inline; 
+    display: inline;
   }
 
   ul li a{
@@ -166,4 +166,21 @@ blockquote {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+.endorsements > img {
+  width: 200px;
+}
+
+.thumbnail.right-caption > img {
+    float: left;
+    margin-right: 9px;
+}
+
+.thumbnail.right-caption {
+    float: left;
+}
+
+.thumbnail.right-caption > .caption {
+    padding: 4px;
 }

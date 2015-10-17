@@ -19,7 +19,7 @@
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
-    
+
   </head>
   <body>
     <!--[if lt IE 10]>
@@ -39,7 +39,7 @@
         <div class="col-md-3 sidebar">
           <ul>
             <li class="active"><a href="#bio" data-toggle="tab">BIO</a></li>
-            <li><a href="#music" data-toggle="tab">MUSIC</a></li>
+            <li><a class='reload-music' href="#music" data-toggle="tab">MUSIC</a></li>
             <li><a href="#events" data-toggle="tab">EVENTS</a></li>
             <li><a href="#endorsements" data-toggle="tab">ENDORSEMENTS</a></li>
             <li><a href="#photos" data-toggle="tab">PHOTOS</a></li>
@@ -49,13 +49,11 @@
         <div class="col-md-9">
           <div class="tab-content">
             <div id="bio" class="tab-pane fade in active">
+              <img src="/images/team-color.jpg" class="img-responsive" width="450px" />
               <h4 class="white">Piotr Lato and Patrick Talesfore, Jr. were born on 05.05.1992</h4>
-              <p>Space Devil Rest in Peace (stylized: Space Devil RIP) is a composition-based improv duo co-lead by composer/bass clarinetist Piotr Lato and drummer/artist Patrick Talesfore, Jr. Established to push a previously underexplored format of live electro-acoustic music with no chordal accompaniment. Not tethered by any genre in particular, what at first glance could be labeled as a “free jazz” project pulls from all of its members’ backgrounds. Talesfore, no stranger to the underground, steeped in jazz, punk rock, experimental, indie, and the like. Lato, raised on Romantic music and gangsta rap, studied woodwinds with jazz greats while absorbing progressive rock, shoegaze, trap, and electronic music.</p>
-              <p>In addition to pushing a format, the members of Space Devil RIP are focused on pushing their instruments to extremes. No sound on the drum set is too primitive or abrasive. The bass clarinet’s full extended range is utilized through a series of pedals and processors with little regard for tradition. The result is a soundscape of rhythmic highs and lows ranging from lush tone poems to harsh noise cacophonies. Where labels are necessary, one may use the term “beautiful future music.”</p>
-              <blockquote>
-                <p class="white">"We don’t give a <i>fuck</i> if jazz musicians like us."</p>
-                <footer><cite>Space Devil RIP</cite></footer>
-              </blockquote>
+              <p>Space Devil Rest in Peace (stylized: Space Devil RIP) is a composition-based improv duo co-lead by composer/bass clarinetist Piotr Lato and drummer/percussionist Patrick Talesfore, Jr. established to push a previously underexplored format of live electro-acoustic music with no chordal accompaniment. Not tethered by any genre in particular, what at first glance could be labeled as a “free jazz” project pulls from both its members’ backgrounds. Talesfore, a longtime participant in underground music circles, learned from master drummers while playing in punk bands and jazz combos, cutting his teeth in rock clubs, bars, and basements. Lato, raised on Romantic music and gangsta rap, studied woodwinds with jazz greats while absorbing progressive rock, shoegaze, and electronic music.</p>
+              <p>The members of Space Devil RIP are dedicated to taking their instruments to extremes. No sound on the drum set is too primitive or abrasive. The bass clarinet’s full extended range is utilized through a series of pedals and processors with little regard for tradition. The result is a soundscape of rhythmic highs and lows ranging from lush tone poems to harsh noise cacophonies. Where labels are necessary, one may use the term “beautiful future music.”</p>
+              <p class="white" style="size:18px"><i>&mdash;Space Devil RIP</i></p>
             </div>
             <div id="music" class="tab-pane fade">
               <iframe id="bandcamp_player" style="border: 0; width: 450px; height: 622px;" src="http://bandcamp.com/EmbeddedPlayer/album=294547895/size=large/bgcol=333333/linkcol=ffffff/transparent=true/" seamless><a href="http://spacedevilrip.bandcamp.com/album/rehearsal-demos-winter-2012-2013">Rehearsal Demos (Winter 2012-2013) by Space Devil (RIP)</a></iframe>
@@ -65,8 +63,20 @@
               <p>Coming soon.</p>
             </div>
             <div id="endorsements" class="tab-pane fade">
-              <h3>ENDORSEMENTS</h3>
-              <p>Coming soon.</p>
+              <div class="col-md-5">
+                <h4 class="white">Patrick Talesfore, Jr. exclusively uses:</h4>
+                <br/>
+                <div class='endorsements'>
+                  <img src="/images/endorsements/promark.jpg"/>
+                  <img src="/images/endorsements/paiste.jpg"/>
+                  <img src="/images/endorsements/247_drums.png"/>
+                  <img src="/images/endorsements/music_namad.png"/>
+                  <img src="/images/endorsements/evans.jpg"/>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <h4 class="white">Piotr Lato prefers:</h4>
+              </div>
             </div>
             <div id="photos" class="tab-pane fade">
               <h3>PHOTOS</h3>
@@ -85,7 +95,7 @@
         <p>(RIP)</p>
       </div>
     </div>
-    
+
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
@@ -94,7 +104,7 @@
     <!-- endbower -->
     <!-- endbuild -->
 
-    
+
     <!-- build:js(.) scripts/plugins.js -->
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
@@ -109,7 +119,7 @@
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
     <!-- endbuild -->
-    
+
 
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
