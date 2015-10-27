@@ -4,6 +4,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -13,6 +14,10 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 /* Space out content a bit */
 body {
+  font-family:'Source Code Pro';
+  letter-spacing:2px;
+  font-weight:500;
+  font-style:normal;
   color: #666666;
   background-color: #000000;
   padding-top: 20px;
@@ -79,7 +84,6 @@ blockquote {
     color: #666666;
     font-size: 22px;
     letter-spacing: .12em;
-    font-weight: bold;
   }
   a:hover {
     color: #FFFFFF;
@@ -143,30 +147,30 @@ blockquote {
 }
 
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  .container {
-    width: 100%;
-    max-width: 1024px;
-  }
-
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 25px;
-  }
-
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
+// @media screen and (min-width: 768px) {
+.container {
+  width: 100%;
+  padding: 0px 68px;
 }
+
+/* Remove the padding we set earlier */
+.header,
+.marketing,
+.footer {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Space out the masthead */
+.header {
+  margin-bottom: 25px;
+}
+
+/* Remove the bottom border on the jumbotron for visual effect */
+.jumbotron {
+  border-bottom: 0;
+}
+// }
 
 .endorsements > img {
   width: 200px;
