@@ -72,6 +72,9 @@ html, body {
     background: transparent;
     box-shadow: none;
   }
+  .cd-logo {
+  	height: 58px;
+  }
 }
 @media only screen and (min-width: 1170px) {
   .cd-header {
@@ -111,6 +114,7 @@ html, body {
 }
 
 .cd-logo {
+  height: 45px;
   display: block;
   position: absolute;
   top: 25%;
@@ -131,7 +135,9 @@ html, body {
 @media only screen and (min-width: 768px) {
   .cd-logo {
     left: 2.6em;
+    height: 58px;
   }
+
 }
 
 .cd-secondary-nav {
