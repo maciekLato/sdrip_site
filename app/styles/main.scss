@@ -75,8 +75,12 @@ body {
   color: #FFFFFF;
 }
 
+.black {
+  color: #000000;
+}
+
 .black-background {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 1);
 }
 
 blockquote {
@@ -116,9 +120,14 @@ blockquote {
     text-align: center;
 
     img {
-      height:20px;
+      max-height: 30px;
+      max-width: 40px;
     }
 
+    li {
+      padding-bottom: 10px;
+      display: inline;
+    }
     ul li a {
       text-decoration: none;
       padding: .2em 1em;
@@ -190,7 +199,7 @@ blockquote {
 // }
 
 .endorsements > img {
-  width: 200px;
+  width: 100px;
   margin: 10px;
 }
 
@@ -205,4 +214,12 @@ blockquote {
 
 .thumbnail.right-caption > .caption {
     padding: 4px;
+}
+
+.white-section {
+  background-color: white;
+}
+
+.black-section {
+  background-color: #111111;
 }
