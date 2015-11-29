@@ -131,7 +131,7 @@ html, body {
   transform: translateY(-50%);
   left: .875em;
   h3 {
-  	font-weight: 500;
+  	font-weight: 700;
   }
 }
 .cd-logo img {
@@ -163,6 +163,8 @@ html, body {
   margin-left: 2.2em;
 }
 .cd-secondary-nav a {
+  background-color: rgba(0, 0 ,0, 0.8);
+  padding: 0 3px;
   display: inline-block;
   color: white;
   text-transform: uppercase;
@@ -418,7 +420,7 @@ html, body {
 .cd-intro {
   position: relative;
   height: 100%;
-  background: url("../img/cd-background-img.jpg") no-repeat center center;
+  background: url('/images/sdrip_band.jpg') no-repeat center center;
   background-size: cover;
   z-index: 1;
   -webkit-font-smoothing: antialiased;
@@ -426,8 +428,10 @@ html, body {
 }
 .cd-intro h1 {
   position: absolute;
-  width: 90%;
-  max-width: 1170px;
+  // width: 90%;
+  // max-width: 1170px;
+  padding-left: 4px;
+  padding-right: 4px;
   left: 50%;
   top: 50%;
   bottom: auto;
@@ -438,15 +442,15 @@ html, body {
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   color: white;
-  font-size: 20px;
-  font-size: 1.25rem;
-  font-weight: 300;
+  font-size: 40px;
+  font-weight: 500;
   text-align: center;
+  background-color: rgba(0, 0 ,0, 0.8);
 }
 @media only screen and (min-width: 768px) {
   .cd-intro h1 {
-    font-size: 30px;
-    font-size: 1.875rem;
+    // font-size: 30px;
+    // font-size: 1.875rem;
   }
 }
 @media only screen and (min-width: 1170px) {
