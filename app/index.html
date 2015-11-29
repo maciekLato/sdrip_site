@@ -15,83 +15,66 @@
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Abel:400|Source+Code+Pro:400,400italic,700normal,700italic,500,500italic,300,300italic"/>
 
     <!-- endbuild -->
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
-
   </head>
   <body>
+
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-   <header class="cd-header">
-    <div class="cd-logo"><a href="#0"><img src="img/cd-logo.svg" alt="Logo"></a></div>
-
+    <header class="cd-header">
+      <div class="cd-logo white"><h3>SPACE DEVIL (RIP)</h3></div>
+      <nav>
+        <ul class="cd-secondary-nav">
+          <li class="active"><a href="#bio" data-toggle="tab">BIO</a></li>
+          <li><a class='reload-music' href="#music" data-toggle="tab">MUSIC</a></li>
+          <li><a href="#events" data-toggle="tab">EVENTS</a></li>
+          <li><a href="#endorsements" data-toggle="tab">ENDORSEMENTS</a></li>
+          <li><a href="#contact" data-toggle="tab">CONTACT</a></li>
+        </ul>
+        <ul class="cd-sub-nav">
+          <li><a href="http://www.facebook.com/SpaceDevilRIP/" target="_blank" title="Facebook"><img class="facebook-icon" src="/images/icons/facebook.png" onmouseover="this.src='/images/icons/facebook-white.png';" onmouseout="this.src='/images/icons/facebook.png';" alt="Facebook"></a></li>
+          <li><a href="https://twitter.com/spacedevilrip" target="_blank" title="Twitter"><img class="twitter-icon" src="/images/icons/twitter.png" onmouseover="this.src='/images/icons/twitter-white.png';" onmouseout="this.src='/images/icons/twitter.png';" alt="Twitter"></a></li>
+          <li><a href="http://spacedevilrip.bandcamp.com/releases" target="_blank" title="BandCamp"><img class="bandcamp-icon" src="/images/icons/bandcamp.png" onmouseover="this.src='/images/icons/bandcamp-white.png';" onmouseout="this.src='/images/icons/bandcamp.png';" alt="BandCamp"></a></li>
+          <li><a class="soundcloud-icon" href="https://soundcloud.com/spacedevilrip" target="_blank" title="Soundcloud"><img src="/images/icons/soundcloud.png" onmouseover="this.src='/images/icons/soundcloud-white.png';" onmouseout="this.src='/images/icons/soundcloud.png';" alt="Soundcloud"></a></li>
+          <li><a href="mailto:spacedevilrip@gmail.com" title="Mail"><img class="mail-icon" src="/images/icons/mail.png" onmouseover="this.src='/images/icons/mail-white.png';" onmouseout="this.src='/images/icons/mail.png';" alt="Mail"></a></li>
+        </ul>
+      </nav> <!-- cd-nav -->
+      <a class="cd-primary-nav-trigger" href="#0">
+        <span class="cd-menu-icon"></span>
+      </a> <!-- cd-primary-nav-trigger -->
+    </header>
     <nav>
-      <ul class="cd-secondary-nav">
-        <li><a href="#0">Log In</a></li>
-        <li><a href="#0">Register</a></li>
-      </ul>
-    </nav> <!-- cd-nav -->
-
-    <a class="cd-primary-nav-trigger" href="#0">
-      <span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span>
-    </a> <!-- cd-primary-nav-trigger -->
-  </header>
-
-  <nav>
-    <ul class="cd-primary-nav">
-      <li class="cd-label">About us</li>
-
-      <li><a href="#0">The team</a></li>
-      <li><a href="#0">Our services</a></li>
-      <li><a href="#0">Our projects</a></li>
-
-      <li class="cd-label">Work with us</li>
-
-      <li><a href="#0">Start a project</a></li>
-      <li><a href="#0">Join In</a></li>
-      <li><a href="#0">Create an account</a></li>
-
-      <li class="cd-label">Follow us</li>
-      
-      <li class="cd-social cd-facebook"><a href="#0">Facebook</a></li>
-      <li class="cd-social cd-instagram"><a href="#0">Instagram</a></li>
-      <li class="cd-social cd-dribbble"><a href="#0">Dribbble</a></li>
-      <li class="cd-social cd-twitter"><a href="#0">Twitter</a></li>
-    </ul>
-  </nav>
-    <div class="container">
-      <div class="header">
-        <ul class="pull-right social-icons">
+      <ul class="cd-primary-nav">
+        <li class="active"><a href="#bio" data-toggle="tab">BIO</a></li>
+        <li><a class='reload-music' href="#music" data-toggle="tab">MUSIC</a></li>
+        <li><a href="#events" data-toggle="tab">EVENTS</a></li>
+        <li><a href="#endorsements" data-toggle="tab">ENDORSEMENTS</a></li>
+        <li><a href="#contact" data-toggle="tab">CONTACT</a></li>
+        <li class="cd-label">Follow us</li>
+        <ul class="social-icons">
           <li><a href="http://www.facebook.com/SpaceDevilRIP/" target="_blank" title="Facebook"><img src="/images/icons/facebook.png" alt="Facebook"></a></li>
           <li><a href="https://twitter.com/spacedevilrip" target="_blank" title="Twitter"><img src="/images/icons/twitter.png" alt="Twitter"></a></li>
           <li><a href="http://spacedevilrip.bandcamp.com/releases" target="_blank" title="BandCamp"><img src="/images/icons/bandcamp.png" alt="BandCamp" style="height:30px"></a></li>
         </ul>
-        <h3>SPACE DEVIL (RIP)</h3>
-      </div>
-
-      <div class="row">
-        <div class="col-md-3 sidebar">
-          <ul>
-            <li class="active"><a href="#bio" data-toggle="tab">BIO</a></li>
-            <li><a class='reload-music' href="#music" data-toggle="tab">MUSIC</a></li>
-            <li><a href="#events" data-toggle="tab">EVENTS</a></li>
-            <li><a href="#endorsements" data-toggle="tab">ENDORSEMENTS</a></li>
-            <li><a href="#photos" data-toggle="tab">PHOTOS</a></li>
-            <li><a href="#contact" data-toggle="tab">CONTACT</a></li>
-          </ul>
-        </div>
-        <div class="col-md-9">
+      </ul>
+    </nav>
+    <div class="container" style="margin-top:90px">
+      <div class="cd-container">
           <div class="tab-content">
             <div id="bio" class="tab-pane fade in active">
               <img src="/images/team-faded.png" class="img-responsive" width="450px" style="opacity:0.7" />
               <h4 class="white">Piotr Lato and Patrick Talesfore, Jr. were born on 05.05.1992</h4>
-              <p>Space Devil Rest in Peace (stylized: Space Devil RIP) is a composition-based improv duo co-lead by composer/bass clarinetist Piotr Lato and drummer/percussionist Patrick Talesfore, Jr. established to push a previously underexplored format of live electro-acoustic music with no chordal accompaniment. Not tethered by any genre in particular, what at first glance could be labeled as a “free jazz” project pulls from both its members’ backgrounds. Talesfore, a longtime participant in underground music circles, learned from master drummers while playing in punk bands and jazz combos, cutting his teeth in rock clubs, bars, and basements. Lato, raised on Romantic music and gangsta rap, studied woodwinds with jazz greats while absorbing progressive rock, shoegaze, and electronic music.</p>
-              <p>The members of Space Devil RIP are dedicated to taking their instruments to extremes. No sound on the drum set is too primitive or abrasive. The bass clarinet’s full extended range is utilized through a series of pedals and processors with little regard for tradition. The result is a soundscape of rhythmic highs and lows ranging from lush tone poems to harsh noise cacophonies. Where labels are necessary, one may use the term “beautiful future music.”</p>
+              <div class="black-background">
+                <p>Space Devil Rest in Peace (stylized: Space Devil RIP) is a composition-based improv duo co-lead by composer/bass clarinetist Piotr Lato and drummer/percussionist Patrick Talesfore, Jr. established to push a previously underexplored format of live electro-acoustic music with no chordal accompaniment. Not tethered by any genre in particular, what at first glance could be labeled as a “free jazz” project pulls from both its members’ backgrounds. Talesfore, a longtime participant in underground music circles, learned from master drummers while playing in punk bands and jazz combos, cutting his teeth in rock clubs, bars, and basements. Lato, raised on Romantic music and gangsta rap, studied woodwinds with jazz greats while absorbing progressive rock, shoegaze, and electronic music.</p>
+                <p>The members of Space Devil RIP are dedicated to taking their instruments to extremes. No sound on the drum set is too primitive or abrasive. The bass clarinet’s full extended range is utilized through a series of pedals and processors with little regard for tradition. The result is a soundscape of rhythmic highs and lows ranging from lush tone poems to harsh noise cacophonies. Where labels are necessary, one may use the term “beautiful future music.”</p>
+              </div>
               <p class="white" style="size:18px"><i>&mdash;Space Devil RIP</i></p>
             </div>
             <div id="music" class="tab-pane fade">
@@ -123,25 +106,17 @@
                   <img src="/images/endorsements/piotr/pedaltrain.png"/>
                   <img src="/images/endorsements/piotr/cioks.png"/>
                   <img src="/images/endorsements/piotr/tc_electronic.png"/>
-                  <img src="/images/endorsements/piotr/isp_logo.jpg"/>
                   <img src="/images/endorsements/piotr/suhr.png"/>
                   <img src="/images/endorsements/piotr/aguilar.png"/>
-
                 </div>
               </div>
-            </div>
-            <div id="photos" class="tab-pane fade">
-              <h3>PHOTOS</h3>
-              <p>Coming soon.</p>
             </div>
             <div id="contact" class="tab-pane fade">
               <h3>CONTACT</h3>
               <p>spacedevilrip@gmail.com</p>
             </div>
           </div>
-        </div>
       </div>
-
       <div class="footer">
         <p class="pull-right">spacedevilrip@gmail.com</p>
         <p>(RIP)</p>
