@@ -35,6 +35,7 @@ Modules - reusable parts of our design
   width: 90%;
   max-width: 768px;
   margin: 0 auto;
+  margin-top: 35px;
 }
 .cd-container:after {
   content: "";
@@ -74,6 +75,10 @@ html, body {
   }
   .cd-logo {
   	height: 58px;
+  }
+
+  .cd-container {
+  	margin-top: 90px;
   }
 }
 @media only screen and (min-width: 1170px) {
