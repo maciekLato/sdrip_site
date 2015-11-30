@@ -31,11 +31,11 @@
       <div class="cd-logo white"><h3>SPACE DEVIL (RIP)</h3></div>
       <nav>
         <ul class="cd-secondary-nav">
-          <li><a href="#bio" data-toggle="tab">BIO</a></li>
-          <li><a href="#music" data-toggle="tab">MUSIC</a></li>
-          <li><a href="#reviews" data-toggle="tab">REVIEWS</a></li>
-          <li><a href="#endorsements" data-toggle="tab">ENDORSEMENTS</a></li>
-          <li><a href="#contact" data-toggle="tab">CONTACT</a></li>
+          <li><a class="page-scroll" href="#bio">BIO</a></li>
+          <li><a class="page-scroll" href="#music">MUSIC</a></li>
+          <li><a class="page-scroll" href="#reviews">REVIEWS</a></li>
+          <li><a class="page-scroll" href="#endorsements">ENDORSEMENTS</a></li>
+          <li><a class="page-scroll" href="#contact">CONTACT</a></li>
         </ul>
         <ul class="cd-sub-nav">
           <li><a href="http://www.facebook.com/SpaceDevilRIP/" target="_blank" title="Facebook"><img style="height:26px" class="facebook-icon" src="/images/icons/facebook-white.png" alt="Facebook"></a></li>
@@ -51,11 +51,11 @@
     </header>
     <nav>
       <ul class="cd-primary-nav">
-        <li class="active"><a href="#bio" data-toggle="tab">BIO</a></li>
-        <li><a class='reload-music' href="#music" data-toggle="tab">MUSIC</a></li>
-        <li><a href="#REVIEWS" data-toggle="tab">REVIEWS</a></li>
-        <li><a href="#endorsements" data-toggle="tab">ENDORSEMENTS</a></li>
-        <li><a href="#contact" data-toggle="tab">CONTACT</a></li>
+        <li class="active"><a href="#bio" class="page-scroll">BIO</a></li>
+        <li><a class="page-scroll" href="#music">MUSIC</a></li>
+        <li><a class="page-scroll" href="#reviews">REVIEWS</a></li>
+        <li><a class="page-scroll" href="#endorsements">ENDORSEMENTS</a></li>
+        <li><a class="page-scroll" href="#contact">CONTACT</a></li>
         <ul class="social-icons">
           <li><a href="http://www.facebook.com/SpaceDevilRIP/" target="_blank" title="Facebook"><img src="/images/icons/facebook-white.png" alt="Facebook"></a></li>
           <li><a href="https://twitter.com/spacedevilrip" target="_blank" title="Twitter"><img src="/images/icons/twitter-white.png" alt="Twitter"></a></li>
@@ -82,12 +82,12 @@
         </div>
       </div>
     </section>
-    <section class="black-section">
+    <section class="black-section" id="music">
       <div class="cd-container">
         <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/170431366&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
       </div>
     </section>
-    <section class="white-section">
+    <section class="white-section" id="reviews">
       <div class="cd-container">
         <h4>Here’s what people have to say about Space Devil RIP’s upcoming project “Beautiful Future Music" -</h4>
         <div class="review-container col-md-12">
@@ -95,7 +95,7 @@
             <img alt="" src="/images/kenwood.jpg" class="img-rounded img-responsive">
           </div>
           <div class="col-md-10">
-            <p>“[Space Devil RIP] has an eerie ability to morph instantly back and forth between polite, gentle, and meek [...] into outrageous, playing passionate, committed blast beats under the threat of doom.The bass clarinet and noise are unique and artistic.” </p>
+            <p>“[Space Devil RIP] has an eerie ability to morph instantly back and forth between polite, gentle, and meek [...] into outrageous, playing passionate, committed blast beats under the threat of doom. The bass clarinet and noise are unique and artistic.” </p>
             <p><i>&mdash;Kenwood Dennard, World-Renowned Drummer for Miles Davis, Charles Mingus, Phish, and others</i></p>
           </div>
         </div>
@@ -119,7 +119,7 @@
         </div>
       </div>
     </section>
-    <section class="black-section">
+    <section class="black-section" id="endorsements">
       <div class="cd-container" style="text-align:center">
         <div class="col-md-12">
           <h3 class="white">Patrick Talesfore, Jr. exclusively uses:</h4>
@@ -147,7 +147,7 @@
       </div>
     </section>
 
-    <section class="white-section">
+    <section class="white-section" id="contact">
       <div class="cd-container">
         <h3>CONTACT</h3>
         <p>spacedevilrip@gmail.com</p>
@@ -179,6 +179,7 @@
 
 
     <!-- build:js scripts/main.js -->
+    <script src="scripts/jquery.easing.min.js"></script>
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
 
