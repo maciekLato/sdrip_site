@@ -66,7 +66,7 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   background: black;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 880px) {
   .cd-menu-icon {
   	display: none;
   }
@@ -139,7 +139,7 @@ html, body {
 .cd-logo img {
   display: block;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 880px) {
   .cd-logo {
     left: 2.6em;
     height: 58px;
@@ -195,7 +195,7 @@ html, body {
   display: inline-block;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 880px) {
   .cd-secondary-nav {
     display: block;
   }
@@ -285,7 +285,7 @@ html, body {
   -o-transform: rotate(225deg);
   transform: rotate(225deg);
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 880px) {
   .cd-primary-nav-trigger {
   	display: none;
     width: 100px;
@@ -407,7 +407,7 @@ html, body {
   -o-transform: translateY(0);
   transform: translateY(0);
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 880px) {
   .cd-primary-nav {
     padding: 80px 0;
   }
@@ -453,7 +453,7 @@ html, body {
   text-align: center;
   background-color: rgba(0, 0 ,0, 0.8);
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 880px) {
   .cd-intro h1 {
     // font-size: 30px;
     // font-size: 1.875rem;
