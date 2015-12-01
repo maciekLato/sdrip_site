@@ -1,15 +1,4 @@
 $(document).ready(function () {
-  // reload music players
-  $('a.reload-music').on('shown.bs.tab', function (e) {
-    if ($(this).hasClass('reload-music')) {
-      var players = $('#bandcamp_player');
-      $.each(players, function (idx) {
-        players[idx].src = players[idx].src;
-      });
-    }
-    $(this).removeClass('reload-music');
-  })
-
   //open/close primary navigation
   $('.cd-primary-nav-trigger').on('click', function(){
     $('.cd-menu-icon').toggleClass('is-clicked'); 
@@ -25,5 +14,16 @@ $(document).ready(function () {
         $('body').addClass('overflow-hidden');
       }); 
     }
+  });
+  //jQuery for page scrolling feature - requires jQuery Easing plugin
+  $('a.page-scroll').bind('click', function(event) {
+    if($('.cd-menu-icon').hasClass('is-clicked')) {
+      $('.cd-primary-nav-trigger').trigger('click');
+    }
+    var $anchor = $(this);
+    $('html, body').stop().animate({
+        scrollTop: $($anchor.attr('href')).offset().top
+    }, 1500, 'easeInOutExpo');
+    event.preventDefault();
   });
 });
