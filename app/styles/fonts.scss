@@ -28,3 +28,18 @@
   font-weight: 700;
   src: local('Source Code Pro Bold'), local('SourceCodePro-Bold'), url(http://fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqYqjGYJUyOXcBwUQbRaNH6c.woff) format('woff');
 }
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Code Pro Bold'), local('SourceCodePro-Bold'), url(http://fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqYqjGYJUyOXcBwUQbRaNH6c.woff) format('woff');
+}
+@font-face {
+  font-family: 'AlteHaasGrotesk';
+  src: url('/fonts/AlteHaasGroteskRegular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'AlteHaasGrotesk';
+  font-weight: bold;
+  src: url('/fonts/AlteHaasGroteskBold.ttf') format('truetype');
+}

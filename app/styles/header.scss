@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -9,12 +9,6 @@ Primary style
   box-sizing: border-box;
 }
 
-// body {
-//   font-size: 100%;
-//   font-family: "Source Sans Pro", sans-serif;
-//   color: rgba(2, 23, 37, 0.7);
-//   background-color: white;
-// }
 body.overflow-hidden {
   /* when primary navigation is visible, the content in the background won't scroll */
   overflow: hidden;
@@ -25,7 +19,7 @@ body.overflow-hidden {
 //   text-decoration: none;
 // }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Modules - reusable parts of our design
 
@@ -44,9 +38,9 @@ Modules - reusable parts of our design
   clear: both;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main components 
+Main components
 
 -------------------------------- */
 html, body {
@@ -166,7 +160,7 @@ html, body {
 }
 .cd-secondary-nav a {
   background-color: rgba(0, 0 ,0, 0.8);
-  padding: 0 3px;
+  padding: .2em .5em;
   display: inline-block;
   color: white;
   text-transform: uppercase;
@@ -433,11 +427,10 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 .cd-intro h1 {
+  font-weight: bold;
+  letter-spacing: .2em;
   position: absolute;
-  // width: 90%;
-  // max-width: 1170px;
-  padding-left: 4px;
-  padding-right: 4px;
+  padding: .2em;
   left: 50%;
   top: 50%;
   bottom: auto;
@@ -449,7 +442,6 @@ html, body {
   transform: translateX(-50%) translateY(-50%);
   color: white;
   font-size: 40px;
-  font-weight: 500;
   text-align: center;
   background-color: rgba(0, 0 ,0, 0.8);
 }
@@ -461,7 +453,7 @@ html, body {
 }
 @media only screen and (min-width: 1170px) {
   .cd-intro {
-    height: 700px;
+    // height: 700px;
   }
 }
 
