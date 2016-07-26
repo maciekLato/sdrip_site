@@ -418,9 +418,18 @@ html, body {
 }
 
 .cd-intro {
+  @media only screen and (min-width: 725px) {
+    background: url("/images/blur/blur_band_1.jpg") no-repeat center center;
+    position: relative;
+    height: 100%;
+    background-size: cover;
+    z-index: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
   position: relative;
   height: 100%;
-  background: url('/images/blur/blur_band_1.jpg') no-repeat center center;
+  background: url('/images/blur/blur_4_pat.jpg') no-repeat center center;
   background-size: cover;
   z-index: 1;
   -webkit-font-smoothing: antialiased;
