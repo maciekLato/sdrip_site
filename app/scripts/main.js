@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $(window).scroll(function(){
-    $(".img-1").css("opacity", 1 - ($(window).scrollTop() / $(window).height()) / 2.5);
+    $(".img-1").css("opacity", 1 - ($(window).scrollTop() / $(window).height()) / 1.2);
   });
 
   //open/close primary navigation

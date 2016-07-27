@@ -62,7 +62,17 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   background: black;
 }
+
+.op-img {
+  content:url("/images/op_banner_small.jpg");
+  width: 100%;
+}
+
 @media only screen and (min-width: 880px) {
+  .op-img {
+    content:url("/images/op_banner.jpg");
+    width: 100%;
+  }
   .cd-menu-icon {
   	display: none;
   }
@@ -463,7 +473,7 @@ html, body {
     background: url("/images/blur/blur_band_1.jpg") no-repeat center center;
     background-size: cover;
   }
-  background: url('/images/blur/blur_4_pat.jpg') no-repeat center center;
+  background: url('/images/blur/blur_4_pat_small.jpg') no-repeat center center;
   background-size: cover;
 }
 
@@ -473,7 +483,7 @@ html, body {
     background: url("/images/blur/blur_band_2_flipped.jpg") no-repeat center center;
     background-size: cover;
   }
-  background: url('/images/blur/blur_4_piotr.jpg') no-repeat center center;
+  background: url('/images/blur/blur_4_piotr_small.jpg') no-repeat center center;
   background-size: cover;
 }
 
