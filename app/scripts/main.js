@@ -1,4 +1,8 @@
 $(document).ready(function () {
+  $(window).scroll(function(){
+    $(".img-1").css("opacity", 1 - ($(window).scrollTop() / $(window).height()) / 2.5);
+  });
+
   //open/close primary navigation
   $('.cd-primary-nav-trigger').on('click', function(){
     $('.cd-menu-icon').toggleClass('is-clicked');
