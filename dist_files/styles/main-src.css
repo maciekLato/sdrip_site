@@ -7057,15 +7057,21 @@ html {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   background: #000;
 }
-.op-img {
-  content: url(/images/op_banner_small.9d13ce52.jpg);
+.release-img {
+  content: url(/images/bfm_banner_small.jpg);
+  background-color: #000;
   width: 100%;
+  padding-top: 20px;
+}
+
+@media only screen and (min-width: 650px) {
+  .release-img {
+    content: url(/images/bfm_banner.jpg);
+    width: 100%;
+    padding-bottom: 20px;
+  }
 }
 @media only screen and (min-width: 1020px) {
-  .op-img {
-    content: url(/images/op_banner.0be03edd.jpg);
-    width: 100%;
-  }
   .cd-menu-icon {
     display: none;
   }
