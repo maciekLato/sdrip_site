@@ -7058,17 +7058,27 @@ html {
   background: #000;
 }
 .release-img {
-  content: url(/images/bfm_banner_small.jpg);
   background-color: #000;
   width: 100%;
   padding-top: 20px;
 }
 
+.big {
+  padding: 20px 0;
+  display: none;
+}
+
+.small {
+  padding-top: 20px;
+}
+
 @media only screen and (min-width: 650px) {
-  .release-img {
-    content: url(/images/bfm_banner.jpg);
-    width: 100%;
-    padding-bottom: 20px;
+  .release-img.big {
+    display: block;
+  }
+
+  .release-img.small {
+    display: none;
   }
 }
 @media only screen and (min-width: 1020px) {
